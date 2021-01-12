@@ -2,3 +2,25 @@
 p {
   font-family: "Roboto";
 }
+body{
+  margin: 0;
+}
+.wrapper{
+  margin:auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
