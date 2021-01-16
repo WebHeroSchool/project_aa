@@ -1,19 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=PT+Serif:wght@700&display=swap');
 p {
   font-family: "Roboto";
 }
-body{
+body {
   margin: 0;
 }
 .wrapper{
   margin:auto;
   width: 80%;
-  border: dashed 1px red;
 }
 .header {
   display: flex;
   justify-content: space-between;
 }
+.logo {
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px "PT_serif", arial, helvetica, sans-serif;
+}
+.logo__circle {
+  opacity: .7;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: dashed 1px red;
+  }
+  .logo__circle_color_dark_blue {
+    background: #0056EC;
+  }
+  .logo__circle_color_blue {
+    background: #C8DBFB;
+    left: 8px;
+    top: 56%;
+  }
 .menu {
   display: flex;
   align-items: center;
