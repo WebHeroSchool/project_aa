@@ -14,13 +14,13 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 9%;
 }
 .logo {
   position: relative;
   padding: 34px 0;
   padding-left: 47px;
-  font: bold 18px/26px 'pt_serifbold', arial, helvetica, sans-serif;
+  font: bold 24px/26px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 .logo__circle {
   opacity: .7;
@@ -78,12 +78,14 @@ body {
   background-size:770px 657px;
 }
 .main__title{
+  padding-top: 13%;
   margin: 0 0 40px 0;
-  font: bold 70px/100px 'pt_serifbold', arial, helvetica, sans-serif;
+  font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 18px/21px "Roboto", arial, helvetica, sans-serif;
+  font: 22px/26px "Roboto", arial, helvetica, sans-serif;
+  width: 80%;
 }
 .main__button {
   display: inline-block;
