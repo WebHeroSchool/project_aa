@@ -4,6 +4,7 @@ p {
 }
 body {
   margin: 0;
+  min-width: 375px;
 }
 .wrapper{
   margin:auto;
@@ -97,6 +98,11 @@ body {
 }
 .main__button:hover {
   opacity: .5;
+  box-shadow: 0 5px 5px #5c354a;
+  top: 2px;
+  background-color: #18b5a4;
+  transition-duration: 1s;
+
 }
 .main__title-text_highlight {
   background: #ECF3FF;
@@ -117,6 +123,7 @@ body {
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
+  transition: transform .3s ease;
   display: block;
   position: absolute;
   width: 100%;
