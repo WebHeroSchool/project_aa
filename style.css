@@ -296,7 +296,7 @@ body {
 
 @media (max-width: 375px) {
   .main {
-    padding: 249px 8% 74px 29px;
+    padding: 250px 8% 10px 24px;
     background-size: 287px 238px;
     background-position: top center;
   }
@@ -306,7 +306,7 @@ body {
   }
 
   .logo {
-    padding: 45px 4px;
+    padding: 40px 4px;
     padding-left: 72px;
     font: bold 0px/0px 'pt_serifbold', arial, helvetica, sans-serif;
   }
@@ -336,11 +336,10 @@ body {
     font: bold 30px/39px 'pt_serifbold', arial, helvetica, sans-serif;
     top: 395px;
     text-align: center;
+    margin: 0 0 35.5px;
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 0%;
   }
 
@@ -349,16 +348,15 @@ body {
   }
 
 .main__subtitle {
-    margin: -5px 0px 31px -6px;
+    margin: 0px 0px 31px 0px;
     font:  16px/18.75px "Roboto", arial, helvetica, sans-serif;
     text-align: center;
     width: 105%;
   }
 
   .main__button {
-    padding: 12px 22px;
-    margin-left: 9px;
-    margin-top: -2px;
+    margin-left: 13px;
+    margin-top: 0px;
     width: 71%;
     font: 14px/16px "Roboto", arial, helvetica, sans-serif;
   }
